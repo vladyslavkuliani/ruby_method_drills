@@ -9,7 +9,6 @@ require "./starter-code/arguments.rb"              # use this line to test your 
 #########################
 #### USING ARGUMENTS ####
 #########################
-
 describe "#say_hello" do
   it "returns 'hello'" do
     expect( say_hello ).to eq "hello"
