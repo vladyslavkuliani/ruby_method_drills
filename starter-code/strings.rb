@@ -88,8 +88,7 @@ end
   # ignores case
   # handles weird inputs gracefully
 def is_vowel(letter)
-  raise ArgumentError, 'Argument is not numeric' unless letter.is_a?(String)
-  !!letter.downcase.match(/[aeoiu]/)
+  letter.is_a?(String) && !!letter.downcase.match(/[aeoiu]/)
 end
 #add_period
   # takes in a string
